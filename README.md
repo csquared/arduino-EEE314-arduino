@@ -32,7 +32,7 @@ ahead of time is recommended.
 
 For our first step in the demo we'll wire up a simple button circuit.
 
-![Button Wiring](https://github.com/csquared/arduino-EEE314-arduino/blob/master/button_led.png)
+![Button Wiring](https://raw.github.com/csquared/arduino-EEE314-arduino/master/button_w_led.png)
 
 We'll then take this circuit and write an arduino program where we use the button
 to turn the led on an off.
@@ -96,7 +96,7 @@ You can just place the matching connector on the bottom of the Ethernet Shield o
 this connector.  You can then jumper pins A0, A1, 10, 11, 12, and 13 into the
 Shield itself.
 
-![Ethernet Shield](https://github.com/csquared/arduino-EEE314-arduino/blob/master/ethernet_shield.png)
+![Ethernet Shield](https://raw.github.com/csquared/arduino-EEE314-arduino/master/ethernet_shield.png)
 
 Now that we have the shield wired up, we can connect to the network.
 
