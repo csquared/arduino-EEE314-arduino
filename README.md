@@ -96,7 +96,7 @@ You can just place the matching connector on the bottom of the Ethernet Shield o
 this connector.  You can then jumper pins A0, A1, 10, 11, 12, and 13 into the
 Shield itself.
 
-![Ethernet Shield](https://raw.github.com/csquared/arduino-EEE314-arduino/master/ethernet_shield.png)
+![Ethernet Shield](https://raw.github.com/csquared/arduino-EEE314-arduino/master/ethernet_shield.JPG)
 
 Now that we have the shield wired up, we can connect to the network.
 
