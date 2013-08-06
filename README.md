@@ -134,18 +134,18 @@ Test the `GET /` endpoint by visiting `http://localhost:5000` in your browser.
 
 We should be able to interact with the API using the command line client `curl`:
 
-  > curl http://localhost:5000/led
-  > on
+    > curl http://localhost:5000/led
+    > on
 
 To send a post request with body (the string `off`):
 
-  > curl -X POST --data off http://localhost:5000/led
-  > OK
+    > curl -X POST --data off http://localhost:5000/led
+    > OK
 
 If that worked, we shoud get `off` as the new LED status.
 
-  > curl http://localhost:5000/led
-  > off
+    > curl http://localhost:5000/led
+    > off
 
 
 #### Finished Examples
