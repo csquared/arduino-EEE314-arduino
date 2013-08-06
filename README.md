@@ -164,8 +164,8 @@ RestClient client = RestClient("192.168.1.1",5000);
 
 ### Step 3b - Deploy to the web
 
-> heroku create my-app-name
-> git push heroku
+    > heroku create my-app-name
+    > git push heroku
 
 ```c++
 RestClient client = RestClient("my-app-name.herouapp.com");
