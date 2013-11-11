@@ -8,22 +8,24 @@ controlling it from that app using an Ethernet Shield.
 In this class, you will write an HTTP server application in Ruby or Javascript
 and get your Arduino to communicate with the server by writing simple HTTP GET
 and POST requests from the Arduino.
+
 We’ll start with a simple non-networked program on the Arduino.
 In the next step, we’ll add the ability to control an LED on the Arduino from the server.
 After that we’ll send data from the Arduino to the server.
-When the application is working on our local network, we'll deploy it to the web using Heroku's free tier.
+When the application is working on our local network, we'll deploy it to the web using Heroku.
 
-Students that have completed the Displays or Outputs course can focus on controlling displays
-and outputs via the server-side application.
-Students that have completed the inputs class will learn how to send sensor data
+Once everything is wired up, students that have completed the Displays or Outputs
+course can focus on controlling displays and outputs via the server-side application.
+Students that have completed the inputs class can focus on sending sensor data
 from the Arduino to the web app.
-Students with familiarity with web programming will enjoy learning how to leverage
-HTTP as a communication mechanism for their Arduino projects.
+Bring your favorite sensor or actuator!
 
 Prerequisites:  You should be able to program on the Arduino, be familiar with Ruby or Javascript,
 and be comfortable using the command line.
 Arduino Level 1 and 2 classes are recommended, as is one of the Displays, Inputs, or Outputs
 courses (if not all three).
+Anyone with familiarity with web programming will enjoy learning how to leverage
+HTTP as a communication mechanism for their Arduino projects.
 We’ll be using Heroku to deploy our web applications,
 so installing the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 ahead of time is recommended.
